@@ -37,7 +37,7 @@ public interface UserInfoService {
 	* @param @return
 	* @param @throws AVException    设定文件 
 	* @return AVObject    返回类型 
-	* @throws 
+	* @throws AVException
 	*/
 	public UserRes getUserInfoByUserName(UserReq userReq) throws AVException;
 }
