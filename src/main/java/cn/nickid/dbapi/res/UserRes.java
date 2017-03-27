@@ -75,4 +75,12 @@ public class UserRes implements Serializable {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	/* (non-Javadoc)
+	 * @return
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "UserRes [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
 }
